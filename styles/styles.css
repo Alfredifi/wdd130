@@ -31,3 +31,12 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+nav {background-color: rgba(107, 107, 236, 0.726);}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+a {padding-right:25px;}
+h1{ color: rgba(107, 107, 236, 0.726) ;}
