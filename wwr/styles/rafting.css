@@ -1,0 +1,72 @@
+:root{
+    --primary-color : #415A77;
+    --secondary-color: #1B263B;
+    --accent1-color: #778DA9;
+    --accent2-color: #0D1B2A;
+
+    --heading-font: "Bitcount Grid Single", system-ui;;
+    --text-font: "Intel One Mono", monospace;;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--text-font);
+  color: var(--accent1-color);
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+
+/*OVERLAY DIV*/
+.hero {
+  position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff; /* white text - make sure there is enough contrast with the background-color */
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+}
