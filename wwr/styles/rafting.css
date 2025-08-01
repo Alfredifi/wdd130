@@ -154,4 +154,21 @@ footer nav img{
   width: 60%;
 }
 
-      
+
+tbody  th, td{
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+th{
+  text-align: left  ;
+}
+
+iframe{
+  width: 30%;
+  height:auto;
+}
+
+.img {
+  width: 40%;
+  height: auto;
+}
